@@ -27,35 +27,15 @@ export default function Cadastro() {
     return (
         <div className={styles.main}>
             <form action='' onSubmit={cadastrar} className={styles.form}>
-                <input
-                    placeholder='Digite seu nome...'
-                    nome="nome"
-                    type="text"
-                    required
-                    onChange={e => setNome(e.target.value)}
-                    className={styles.input}
-                />
-                <input
-                    placeholder='Digite seu curso...'
-                    nome="curso"
-                    type="text"
-                    required
-                    onChange={e => setCurso(e.target.value)}
-                    className={styles.input}
-                />
-                <input
-                    placeholder='Digite seu RA...'
-                    nome="num_inscricao"
-                    type="number"
-                    required
-                    onChange={e => setNum_inscricao(e.target.value)}
-                    className={styles.input}
-                />
+                <label id="nome" for="nome">Nome:</label>
+                <input nome="nome" type="text" onChange={e => setNome(e.target.value)} className={styles.input}/>
+                <label id="curso" for="curso">Curso:</label>
+                <input nome="curso" type="text" onChange={e => setCurso(e.target.value)} className={styles.input}/>
+                <label id="num_inscricao" for="num_inscricao">Num de Registro:</label>
+                <input nome="num_inscricao" type="number" onChange={e => setNum_inscricao(e.target.value)} className={styles.input}/>
                 <button type='submit' className={styles.button}>Cadastra-se</button>
-                <a href='/' className={styles.buttonVoltar}>Listar</a>
+                <a href='/' className={styles.button}>Listar</a>
             </form>
         </div>
     );
 }
-
-
