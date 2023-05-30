@@ -1,0 +1,10 @@
+{
+  "alunos": [
+    {
+      "nome": "Rafa",
+      "num_inscricao": "123",
+      "curso": "Agro",
+      "id": 1
+    }
+  ]
+}

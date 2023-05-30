@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #578cc5, #4789bb70);
+  font-family: 'Roboto';
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 17px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.person-details {
+  text-align: left;
+  margin-right: 10px;
+}
+
+.cancel-button {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.cancel-button-1 {
+  padding: 8px 16px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button-0 {
+  margin: 15px;
+  padding: 8px 16px;
+  background-color: #2837bd;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button-0:hover {
+  background-color: #1b2ab5;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
